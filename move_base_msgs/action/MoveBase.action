@@ -2,3 +2,7 @@ geometry_msgs/PoseStamped target_pose
 ---
 ---
 geometry_msgs/PoseStamped base_position
+geometry_msgs/Twist last_twist
+time controller_cpu_time
+uint64 local_costamp_num_occupied_cells
+
